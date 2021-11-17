@@ -1,5 +1,4 @@
 import pygame
-from pygame.constants import KEYDOWN
 from snake import Snake
 from food import Food
 
@@ -144,6 +143,6 @@ class Game:
                 game_over = True
 
             pygame.display.update()
-            self.__clock.tick(15)
+            self.__clock.tick(8)
 
         pygame.quit()
